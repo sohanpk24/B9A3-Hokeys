@@ -33,18 +33,14 @@
           }
         }
       </script>
-
-
-
-
-
 </head>
+
 <header class="manrope-font">
 
     <!-- navigation menu -->
- <div class="container mx-auto mb-6">
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
+ <div class="container mx-auto">
+    <div class="navbar bg-base-100 mx-auto justify-center m-auto justify-between ">
+        <div class="navbar-start lg:w-6">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -68,30 +64,27 @@
             <li><a>Contact<i class="fa-solid fa-chevron-right"></i></a></li>
           </ul>
         </div>
-        <div class="navbar-end flex space-x-2 text-center justify-center">
+        <div class="navbar-end flex space-x-2 text-center justify-end w-48">
             <img class="w-4 h-4" src="Images/Frame (3).svg" alt="">
           <a class="btn bg-[#FF4240] text-white hover:text-black font-medium">Get Ticket</a>
         </div>
       </div> 
  </div>
   
- <!-- banner section -->
- <section class="container mx-auto mb-10">
-   <div class="">
-    <div class="carousel lg:w-full rounded-xl">
-        <!-- slider 1 -->
-        <div id="slide1" class="carousel-item relative bg-no-repeat bg-cover bg-auto h-[170px] lg:h-[550px] w-full bg-[url(Images/1.png)]">
+ <section>
+    <div class="container mx-auto">
+
+      <div class="carousel w-full relative">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full w-fit" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle bg-black text-white outline-none border-none hover:text-black duration-500">❮</a> 
-            <a href="#slide2" class="btn btn-circle bg-black text-white outline-none border-none hover:text-black duration-500">❯</a>
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
-          <div class="bg-[#131318] absolute w-[500px] h-36 rounded-xl text-white p-6 right-5 bottom-4">
-            <h4 class="text-2xl mb-3">Meet all the heroes from the field</h4>
-            <p class="text-xs">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-          </div>
+          
         </div> 
         <div id="slide2" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+          <img src="Images/1.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a> 
             <a href="#slide3" class="btn btn-circle">❯</a>
@@ -111,12 +104,24 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
+
       </div>
-   </div>
- </section>
+
+      <div class="bg-[#131318] absolute lg:w-[500px] h-36 rounded-xl text-white p-6 lg:right-[50px] lg:bottom-[0px]">
+        <h4 class="text-2xl mb-3">Meet all the heroes from the field</h4>
+        <p class="text-xs">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      
+    </div>
+   </section>
+
+
 </header>
 <body class="manrope-font">
-    <section class="container mx-auto mt-8 mb-6">
+  <main>
+   
+    <!-- Professional Hockeys Club -->
+    <section class="container mx-auto mt-44 lg:mt-8 mb-6">
 
         <div class="text-center justify-center space-y-4">
            <h3 class="text-2xl font-semibold lg:text-4xl lg:font-extrabold">Professional Hockeys Club</h3>
@@ -148,5 +153,57 @@
 
     </section>
     
+    <!-- Program Sections -->
+    <section class="container mx-auto mb-6 mt-8">
+       <div class="justify-center items-center">
+          <div class="justify-center text-center items-center lg:w-3/6 mx-auto mb-10">
+            <h2 class="text-3xl font-extrabold">Program Sections</h2>
+            <p class="text-sm font-medium opacity-70">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+           <div class="lg:flex lg:gap-4 space-y-4 lg:space-y-0 justify-center items-center ">
+            <div class="card lg:w-[570px] bg-base-100 shadow-xl image-full">
+                <figure><img src="Images/2.png" alt="" /></figure>
+                <div class="card-body lg:p-20">
+                  <h2 class="card-title text-2xl font-semibold">Junior Program</h2>
+                  <p class="text-sm opacity-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <div class="card-actions justify-start">
+                    <button class="btn bg-[#FF4240] outline-none border-none text-white hover:text-black">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+            <div class="card lg:w-[570px] bg-base-100 shadow-xl image-full">
+                <figure><img src="Images/2.png" alt="" /></figure>
+                <div class="card-body lg:p-20">
+                  <h2 class="card-title text-2xl font-semibold">Junior Program</h2>
+                  <p class="text-sm opacity-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <div class="card-actions justify-start">
+                    <button class="btn bg-[#FF4240] outline-none border-none text-white hover:text-black">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+       </div>
+       <div>
+        <div class="card w-[1158px] mx-auto bg-base-100 shadow-xl image-full mt-4">
+            <figure><img src="Images/4.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+       </div>
+    </section>
+
+
+    
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
